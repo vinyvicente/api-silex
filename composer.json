@@ -1,0 +1,20 @@
+{
+    "name": "vinicius/api-silex",
+    "type": "project",
+    "require": {
+        "silex/silex": "^2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vinicius",
+            "email": "vinyvicente@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Api\\": "src/"
+        }
+    }
+}
